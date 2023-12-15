@@ -13,7 +13,7 @@ estado_pago = (
 # Create your models here.
 class Factura_Venta(models.Model):
     
-    fecha_ingreso=models.DateTimeField(auto_now_add=True)
+    fecha_ingreso=models.DateField()
     cliente = models.CharField(max_length=100,null=True)
     medio_pago_v=models.CharField(max_length=255,choices=medio_pago)
     estado_pago_v=models.CharField(max_length=255,choices=estado_pago)
