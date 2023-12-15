@@ -7,5 +7,5 @@ from detalle_ventas.models import Detalle_Venta
 @admin.register(Detalle_Venta)
 
 class DetalleVentaAdmin(admin.ModelAdmin):
-    list_display=['id','factura_venta','producto_venta','cantidad','precio_producto']
+    list_display=['id','factura_venta','producto_venta','cantidad']
     
