@@ -93,6 +93,19 @@ WSGI_APPLICATION = 'distritiendamj.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+""""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'borrara',
+        'USER': 'root',
+        'PASSWORD': 'admin',
+        'HOST': 'localhost',  # Puedes cambiar esto según tu configuración
+        'PORT': '3306',       # Puedes cambiar esto según tu configuración
+    }
+}
+"""
+
 DATABASES = {
   'default': {
     'ENGINE': 'django.db.backends.mysql',
