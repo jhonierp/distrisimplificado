@@ -6,7 +6,7 @@ class User(AbstractUser):
     USERNAME_FIELD="email"
     REQUIRED_FIELDS=[]
     
-  """
+"""
 
 Para crear un Usuario por primera vez debe de estar asi:
 
