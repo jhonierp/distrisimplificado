@@ -19,7 +19,7 @@ class Factura_Compra(models.Model):
     telefono = models.CharField(max_length=150)
     medio_pago_c=models.CharField(max_length=255,choices=medio_pago)
     estado_pago_c=models.CharField(max_length=255,choices=estado_pago)
-    total_c=models.DecimalField(max_digits=10,decimal_places=2,null=True)  
+    
     
     def __int__(self):
         return self.total_c
