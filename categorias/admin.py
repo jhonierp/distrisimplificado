@@ -7,5 +7,5 @@ from categorias.models import Categoria
 @admin.register(Categoria)
 
 class ProductoAdmin(admin.ModelAdmin):
-    list_display=['id','imagen','descripcion']
+    list_display=['id','descripcion']
     
