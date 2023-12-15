@@ -14,7 +14,7 @@ estado_pago = (
 )
 
 class Factura_Compra(models.Model):
-    fecha_ingreso=models.DateTimeField(auto_now_add=True)
+    fecha_ingreso=models.DateField()
     proveedor = models.CharField(max_length=100,null=True)
     telefono = models.CharField(max_length=150)
     medio_pago_c=models.CharField(max_length=255,choices=medio_pago)
