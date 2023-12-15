@@ -15,6 +15,6 @@ class DetalleVentasViewSet(ModelViewSet):
     queryset=Detalle_Venta.objects.all()
 #filtro
     filter_backends=[DjangoFilterBackend,OrderingFilter]
-    filterset_fields=['categoria']
+    filterset_fields=['factura_venta']
     ordening_fields='__all__'
     
