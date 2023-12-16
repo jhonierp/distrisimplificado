@@ -2,8 +2,8 @@ from django.db import models
 
 medio_pago = (
     ("Efectivo", "Efectivo"),
-    ("Tarjeta de Crédito", "Tarjeta de Crédito"),
-    ("Transferencia Bancaria", "Transferencia Bancaria"),
+    ("Transferencia BANCOLOMBIA", "Transferencia BANCOLOMBIA"),
+    ("Transferencia NEQUI", "Transferencia NEQUI"),
 )
 estado_pago = (
         ('PENDIENTE', 'Pendiente'),
