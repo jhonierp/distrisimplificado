@@ -14,7 +14,6 @@ estado_cartera = (
 )
 
 class Cartera(models.Model):
-    fecha_facturacion=models.DateField()
     fecha_vencimiento=models.DateField()
     factura_v = models.ForeignKey('factura_ventas.Factura_venta',on_delete=models.SET_NULL,null=True,blank=True)
     medio_pago_cartera=models.CharField(max_length=255,choices=medio_pago_cartera)
