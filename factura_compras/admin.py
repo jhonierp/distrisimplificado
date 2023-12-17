@@ -7,5 +7,5 @@ from factura_compras.models import Factura_Compra
 @admin.register(Factura_Compra)
 
 class FacturaCompraAdmin(admin.ModelAdmin):
-    list_display=['id','proveedor','telefono','fecha_ingreso','email','categoriaf']
+    list_display=['id','proveedor','telefono','fecha_ingreso','email','categoriaf','medio_pago_c','estado_pago_c','lote_f']
     
